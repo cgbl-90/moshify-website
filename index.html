@@ -6,22 +6,176 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;900&=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/styles.css" />
     <link rel="stylesheet" href="src/normalize.css" />
   </head>
   <body>
-    <div class="grid grid--1x2">
-      <div style="height: 100px; background: tomato;"></div>
-      <div style="height: 100px; background: dodgerblue;"></div>
+    <!--Menu-->
+    <nav class="nav">
+      <ul class="list">
+        <li class="list_horizontal">about us</li>
+        <li class="list_horizontal">blog</li>
+        <li class="list_horizontal">contact us</li>
+      </ul>
+    </nav>
+    <!-- Principal -->
+    <section class="block block--dark block--skewed--left">
+      <grid class="air container grid grid--1x2">
+        <div class="block__header hero__content align__txt__content">
+          <h1>¡Trabajo remoto para todos!</h1>
+          <p class="air">
+            Descubre nuevas formas de trabajar que te permiten disfrutar más la
+            vida
+          </p>
+          <a href="" class="btn btn--accent air">
+            ¡Empezar!
+          </a>
+        </div>
+        <div>
+          <img class="image_behaviour" src="images/jpg/remoter_4.jpg" />
+        </div>
+      </grid>
+    </section>
+    <!--¡Regístrate por solo 1$!-->
+    <section class="block container register">
+      <header class="header block__header display_as_block">
+        <h2>¡Regístrate por solo 1$!</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus
+          error mollitia incidunt dolores delectus illum, dolore provident animi
+          cupiditate officia earum? Illo eveniet voluptatibus quaerat ea ullam,
+          earum dignissimos nisi.
+        </p>
+      </header>
+      <div class="air shadows input-group">
+        <input type="text" class="ipt" placeholder="Enter your email" />
+        <button class="btn btn--inline btn--inline--acent">¡Empezar!</button>
+      </div>
+      <div class="list grid list_prices_grid air">
+        <li>
+          <span class="badge badge-small badge--secondary">vacantes</span>
+        </li>
+        <li><span class="badge badge-small">tips</span></li>
+        <li><span class="badge badge-small">ofertas</span></li>
+        <li><span class="badge badge-small">coaching</span></li>
+        <li><span class="badge badge-small">tecnología</span></li>
+        <li><span class="badge badge-small">remoto</span></li>
+      </div>
+    </section>
+    <!-- Precios -->
+    <section class="block container">
+      <grid class="grid grid--1x3">
+        <div class="shadows card">
+          <header class="card__header card--primary">
+            <h3 class="plan__name">¡Búsqueda futura!</h3>
+            <span class="plan__price"> 5$ </span>
+          </header>
+          <div class="card__body">
+            <ul class="list list--tick">
+              <li class="list__item">Item 1</li>
+              <li class="list__item">Item 2</li>
+              <li class="list__item">Item 3</li>
+            </ul>
+            <button class="btn btn--block">¡Empezar!</button>
+          </div>
+        </div>
+        <div class="shadows card popular">
+          <header class="card__header card--secondary">
+            <h3 class="plan__name">¡Búsqueda activa!</h3>
+            <span class="plan__price"> 25$ </span>
+          </header>
+          <div class="card__body">
+            <ul class="list list--tick">
+              <li class="list__item">Item 1</li>
+              <li class="list__item">Item 2</li>
+              <li class="list__item">Item 3</li>
+            </ul>
+            <button class="btn btn--block">¡Empezar!</button>
+          </div>
+        </div>
+        <div class="shadows card">
+          <header class="card__header card--primary">
+            <h3 class="plan__name">¡Búsqueda urgente!</h3>
+            <span class="plan__price"> 50$ </span>
+          </header>
+          <div class="card__body">
+            <ul class="list list--tick">
+              <li class="list__item">Item 1</li>
+              <li class="list__item">Item 2</li>
+              <li class="list__item">Item 3</li>
+            </ul>
+            <button class="btn btn--block">¡Empezar!</button>
+          </div>
+        </div>
+      </grid>
+    </section>
+    <!-- Featured -->
+    <div class="air block__header">
+      <h1>¿Por qué ... ?</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit,
+        blanditiis. Aspernatur reiciendis sequi natus magnam ab fugiat!
+      </p>
     </div>
-    <br />
-    <div class="grid grid--1x3">
-      <div style="height: 100px; background: goldenrod;"></div>
-      <div style="height: 100px; background: dodgerblue;"></div>
-      <div style="height: 100px; background: tomato;"></div>
-    </div>
+    <section class="block container featured">
+      <article class="grid grid--1x2">
+        <div class="change_order">
+          <h3 class="block__header">¡Organiza tu tiempo!</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit,
+            blanditiis. Aspernatur reiciendis sequi natus magnam ab fugiat!
+          </p>
+          <a href="#" class="link--arrow"> Aprende más </a>
+        </div>
+        <div>
+          <img class="image_behaviour" src="images/jpg/remoter_1.jpg" />
+        </div>
+      </article>
+      <br />
+      <article class="grid grid--1x2">
+        <div>
+          <h3 class="block__header">¡Mejora tu salud!</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit,
+            blanditiis. Aspernatur reiciendis sequi natus magnam ab fugiat!
+          </p>
+          <a href="#" class="link--arrow"> Aprende más </a>
+        </div>
+        <div>
+          <img class="image_behaviour" src="images/jpg/remoter_8.jpg" />
+        </div>
+      </article>
+      <br />
+      <article class="grid grid--1x2">
+        <div class="change_order">
+          <h3 class="block__header">¡Mejora tu salud!</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit,
+            blanditiis. Aspernatur reiciendis sequi natus magnam ab fugiat!
+          </p>
+          <a href="#" class="link--arrow"> Aprende más </a>
+        </div>
+        <div>
+          <img class="image_behaviour" src="images/jpg/remoter_3.jpg" />
+        </div>
+      </article>
+      <br />
+      <article class="grid grid--1x2">
+        <div>
+          <h3 class="block__header">¡Mejora tu salud!</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit,
+            blanditiis. Aspernatur reiciendis sequi natus magnam ab fugiat!
+          </p>
+          <a href="#" class="link--arrow"> Aprende más </a>
+        </div>
+        <div>
+          <img class="image_behaviour" src="images/jpg/remoter_6.jpg" />
+        </div>
+      </article>
+    </section>
   </body>
 </html>
