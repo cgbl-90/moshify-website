@@ -113,6 +113,9 @@ a {
   margin-left: 0;
   color: var(--color--headings);
 }
+.list_horizontal {
+  display: inline;
+}
 .list--inline .list__item {
   display: inline-block;
   margin-right: 2rem;
@@ -221,7 +224,6 @@ a {
   overflow: hidden;
   display: inline-block;
   margin: 3rem;
-  max-width: 500px;
   align-self: auto;
   transition: transform 0.5s ease-out;
 }
@@ -257,16 +259,16 @@ a {
 .plans .list__item{
   margin-bottom: 2.5rem;
 }
-.popular .card__header {
+.popular {
   position: relative;
 }
-.popular .card__header::before {
-  content: url(images/popular.svg);
+.popular::before {
+  content: url(images/svg/popular.svg);
   width: 60px;
   display: inline-block;
   position: absolute;
-  top: -9px;
-  right: 5px;
+  top: -5px;
+  right: 15px;
 }
 @media screen and (min-width: 1024px) {
 
@@ -276,7 +278,7 @@ a {
 .plan__price{
   font-size: 5rem;
 }
-.popular .card__header::before {
+.popular:before {
   width: 40px;
 }
 }
@@ -372,10 +374,6 @@ a {
   margin: 2rem;
 }
 
-#justifybtn_insidegrid .card__body {
-  margin: 0px;
-}
-
 /* Blocks */
 
 .block {
@@ -424,14 +422,8 @@ a {
 /* Navigation bar */
 .nav {
   margin: 0;
-  background: #fff;
   width: 100%;
   color: var(--color--headings);
-}
-
-.list_horizontal {
-  display: inline;
-  justify-content: right;
 }
 
 /* Images fit container */
@@ -470,4 +462,7 @@ div .image_behaviour {
 }
 .align__txt__content {
   margin: auto;
+}
+.callout_content {
+  max-width: 900px;
 }
